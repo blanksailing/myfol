@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html <html lang="it">
 <head>
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 	<meta name="copyright" content="https://blanksailing.github.io/myfol" />
-	<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="myfol.css">
+	<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="myfol_l.css" id="theme-link">
 </head>
 <title>Orari di Cut-Off, Limiti Bonifici, Indirizzi Pec dei principali conti bancari</title>
 <body>
+<script>
+// function to change CSS on button click
+function changeCSS() {
+// Select the button
+const btn = document.getElementById("changeCSS");
+// Select the stylesheet <link>
+const theme = document.getElementById("theme-link");
+  // If the current URL contains "ligh-theme.css"
+  if (theme.getAttribute("href") == "myfol_l.css") {
+    // ... then switch it to "dark-theme.css"
+    theme.href = "myfol_d.css";
+  // Otherwise...
+  } else {
+    // ... switch it to "light-theme.css"
+    theme.href = "myfol_l.css";
+  }};
+</script>
 	<div>
+	<button id="changeCSS" class="changeCSS" onclick="changeCSS()">Switch Color</button>
 	<h2>Orari di Cut-Off, Limiti Bonifici, Indirizzi Pec dei principali conti bancari</h2>
 	<h3>Dati FITD aggiornati al 29-11-2022</h2>
 	</div>
 <table id='myfol'>
 	<tr>
-	<th class='update' colspan='2'>Ultimo Agg. dati 18-12-2022 22:21:45</th>
+	<th class='update' colspan='2'>Ultimo Agg. dati 26-12-2022 20:37:27</th>
 	<th colspan='3'><a href='https://blanksailing.github.io/myfol/'>© https://blanksailing.github.io/myfol</th>
 	</tr>
 	<tr>
@@ -34,7 +52,7 @@
 		</tr>
 		<tr id="03374">
 			<td><b>ALTO ADIGE BANCA SPA  03374</b>  "SÜDTIROL BANK"</td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>reclami@pec.suedtirolbank.eu</td>
@@ -104,7 +122,7 @@
 		</tr>
 		<tr id="08509">
 			<td><b>BANCA CENTRO EMILIA CREDITO COOPERATIVO  08509</b> </td>
-			<td><b>16.10</b></td>
+			<td><b>16:10</b></td>
 			<td></td>
 			<td></td>
 			<td>controllo.rischi@postacer.bancacentroemilia.it</td>
@@ -118,14 +136,14 @@
 		</tr>
 		<tr id="10312">
 			<td><b>BANCA CF+ S.P.A.  10312</b>  "CONTO ESAGON"</td>
-			<td><b>15.30</b></td>
+			<td><b>15:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>bancacfplus@legalmail.it; creditofondiario@legalmail.it; contoesagon@legalmail.it</td>
 		</tr>
 		<tr id="03110">
 			<td><b>BANCA CREDIFARMA S.P.A.  03110</b> </td>
-			<td><b>13.30</b></td>
+			<td><b>13:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>reclami.pec@bancaifis.legalmail.it;direzione@cert.farbanca.it</td>
@@ -153,7 +171,7 @@
 		</tr>
 		<tr id="03048">
 			<td><b>BANCA DEL PIEMONTE S.P.A.  03048</b> </td>
-			<td><b>19.00</b></td>
+			<td><b>19:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>affarigenerali@postacert.bancadelpiemonte.it</td>
@@ -167,14 +185,14 @@
 		</tr>
 		<tr id="08515">
 			<td><b>BANCA DELLA VALSASSINA CREDITO COOPERATIVO  08515</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td></td>
 			<td>08515.bcc@actaliscertymail.it</td>
 		</tr>
 		<tr id="08883">
 			<td><b>BANCA DI BOLOGNA S.C.  08883</b>  "BFREE, READY GOLD"</td>
-			<td><b>15.30</b></td>
+			<td><b>15:30</b></td>
 			<td></td>
 			<td></td>
 			<td>info@cert.bancadibologna.it</td>
@@ -188,28 +206,28 @@
 		</tr>
 		<tr id="08951">
 			<td><b>BANCA DI CREDITO COOPERATIVO DEI COLLI ALBANI - SC  08951</b> </td>
-			<td><b>15.45</b></td>
+			<td><b>15:45</b></td>
 			<td></td>
 			<td></td>
 			<td>postacertificata@cert.bcctoniolo.it</td>
 		</tr>
 		<tr id="08344">
 			<td><b>BANCA DI CREDITO COOPERATIVO DI ANAGNI S.C.  08344</b> </td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td></td>
 			<td>segreteria@pec.anagni.bcc.it</td>
 		</tr>
 		<tr id="08362">
 			<td><b>BANCA DI CREDITO COOPERATIVO DI ARBOREA S.C.  08362</b> </td>
-			<td><b>16.15</b></td>
+			<td><b>16:15</b></td>
 			<td></td>
 			<td></td>
 			<td>bccarborea@legamail.it</td>
 		</tr>
 		<tr id="07096">
 			<td><b>BANCA DI CREDITO COOPERATIVO DI CAGLIARI  07096</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td></td>
 			<td>07096.bcccagliari@actaliscertymail.it</td>
@@ -230,7 +248,7 @@
 		</tr>
 		<tr id="08817">
 			<td><b>BANCA DI CREDITO COOPERATIVO DI SAN MARZANO  08817</b>  "CONTO SPREAD"</td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td></td>
 			<td>direzione@pec.bccsanmarzano.it; legale@pec.bccsanmarzano.it</td>
@@ -251,7 +269,7 @@
 		</tr>
 		<tr id="05080">
 			<td><b>BANCA DI IMOLA SPA  05080</b> </td>
-			<td><b>15.30</b></td>
+			<td><b>15:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>segrdir-bimola@pec.it </td>
@@ -286,14 +304,14 @@
 		</tr>
 		<tr id="03075">
 			<td><b>BANCA GENERALI S.P.A.  03075</b> </td>
-			<td><b>18.00</b></td>
+			<td><b>18:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>bankit.ufficiolegale@cert.bancagenerali.it</td>
 		</tr>
 		<tr id="03205">
 			<td><b>BANCA IFIS S.P.A.  03205</b>  "RENDIMAX"</td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td>Rendimax : Nessun Limite verso predef.</td>
 			<td>FITD</td>
 			<td>segreteria@bancaifis.legalmail.it; reclami.pec@bancaifis.legalmail.it; rendimax@bancaifis.legalmail.it</td>
@@ -314,21 +332,21 @@
 		</tr>
 		<tr id="03062">
 			<td><b>BANCA MEDIOLANUM S.P.A.  03062</b> </td>
-			<td><b>17.00</b></td>
+			<td><b>17:00</b></td>
 			<td>50K Giornaliero</td>
 			<td>FITD</td>
 			<td>bancamediolanum@pec.mediolanum.it; ufficioreclami@pec.mediolanum.it</td>
 		</tr>
 		<tr id="01030">
 			<td><b>BANCA MONTEPASCHI DI SIENA S.P.A.  01030</b> </td>
-			<td><b>18.30</b></td>
+			<td><b>18:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>segr.gen@postacert.gruppo.mps.it</td>
 		</tr>
 		<tr id="01005">
 			<td><b>BANCA NAZIONALE DEL LAVORO SPA  01005</b>  "BNL, HELLO BANK!, HELLO MONEY!"</td>
-			<td><b>18.30</b></td>
+			<td><b>18:30</b></td>
 			<td>Giornaliero : 50K</td>
 			<td>FITD</td>
 			<td>bnl@pec.bnlmail.com; reclami@pec.bnlmail.com</td>
@@ -342,7 +360,7 @@
 		</tr>
 		<tr id="08728">
 			<td><b>BANCA PATAVINA BCC DI SANT'ELENA E PIOVE DI SACCO S.C.  08728</b> </td>
-			<td><b>11.30</b></td>
+			<td><b>11:30</b></td>
 			<td></td>
 			<td></td>
 			<td>legale@cert.bccpiove.it</td>
@@ -398,7 +416,7 @@
 		</tr>
 		<tr id="05424">
 			<td><b>BANCA POPOLARE DI BARI S.C.P.A.  05424</b>  "CONTO QUICK"</td>
-			<td><b>13.00</b></td>
+			<td><b>13:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>segreteriageneralebpb@postacert.cedacri.it; reclamibpbari@postacert.cedacri.it;</td>
@@ -433,7 +451,7 @@
 		</tr>
 		<tr id="05696">
 			<td><b>BANCA POPOLARE DI SONDRIO  05696</b> </td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>servizio.commerciale@pec.popso.it</td>
@@ -461,14 +479,14 @@
 		</tr>
 		<tr id="05792">
 			<td><b>BANCA POPOLARE VALCONCA  05792</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>direzionepec@bancavalconca.com</td>
 		</tr>
 		<tr id="03417">
 			<td><b>BANCA PRIVATA LEASING S.P.A.  03417</b>  "CONTO DEPOSITO"</td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td>50K singolo bonifico; 50K giornaliero;100K mensile</td>
 			<td>FITD</td>
 			<td>comunicazioni-bprileas@legalmail.it; privataleasing.ufficioreclami@legalmail.it</td>
@@ -489,14 +507,14 @@
 		</tr>
 		<tr id="03265">
 			<td><b>BANCA PROMOS S.P.A.  03265</b>  "CONTO DEPOSITO ONLINE"</td>
-			<td><b>15.45</b></td>
+			<td><b>15:45</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>bancapromosspa@legalmail.it</td>
 		</tr>
 		<tr id="03138">
 			<td><b>BANCA REALE S.P.A.  03138</b> </td>
-			<td><b>16.30</b></td>
+			<td><b>16:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>bancareale@legalmail.it</td>
@@ -517,14 +535,14 @@
 		</tr>
 		<tr id="03268">
 			<td><b>BANCA SELLA SPA  03268</b>  "WEBSELLA"</td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td>Singolo : 258K</td>
 			<td>FITD</td>
 			<td>bs_segreteria@pec.sella.it; reclami@pec.sella.it</td>
 		</tr>
 		<tr id="03158">
 			<td><b>BANCA SISTEMA S.P.A.  03158</b>  "SI CONTO"</td>
-			<td><b>16:00</b></td>
+			<td><b>17:00</b></td>
 			<td>Giornaliero : 15K (modificabile)</td>
 			<td>FITD</td>
 			<td>bancasistema@legalmail.it</td>
@@ -538,7 +556,7 @@
 		</tr>
 		<tr id="03598">
 			<td><b>BANCA UBAE S.P.A.  03598</b> </td>
-			<td><b>13.30</b></td>
+			<td><b>13:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>ubae@cert.ubae.it</td>
@@ -587,7 +605,7 @@
 		</tr>
 		<tr id="03440">
 			<td><b>BANCO DI DESIO E DELLA BRIANZA SPA  03440</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>segreteria@pec.bancodesio.it</td>
@@ -664,7 +682,7 @@
 		</tr>
 		<tr id="06045">
 			<td><b>CASSA DI RISPARMIO DI BOLZANO SPA  06045</b>  "DOLOMITI DIREKT"</td>
-			<td><b>17.00</b></td>
+			<td><b>17:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>certmail@pec.sparkasse.it</td>
@@ -692,7 +710,7 @@
 		</tr>
 		<tr id="06270">
 			<td><b>CASSA DI RISPARMIO DI RAVENNA S.P.A.  06270</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>segrdir-carira@pec.it</td>
@@ -713,34 +731,34 @@
 		</tr>
 		<tr id="08187">
 			<td><b>CASSA RURALE DI RENON SOC. COOP. RAIFFEIS  08187</b>  "4MORE"</td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td>Giornaliero : 10K, Illimitato verso cc o cd predefinito</td>
 			<td></td>
 			<td>pec08187@raiffeisen-legalmail.it</td>
 		</tr>
 		<tr id="08430">
 			<td><b>CASSA RURALE ED ARTIGIANA DI CANTU' B.C.C. SOC. COOP.  08430</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td></td>
 			<td>ispettorato@pec.cracantu.it</td>
 		</tr>
 		<tr id="08011">
 			<td><b>CASSA RURALE VALLAGARINA - BANCA DI CREDITO COOPERATIVO - SC  08011</b> </td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td></td>
 			<td>segreteria@pec.cr-bvallagarina.net</td>
 		</tr>
 		<tr id="03058">
 			<td><b>CHEBANCA! S.P.A.  03058</b>  "CONTO DEPOSITO, CONTO DIGITAL, CONTO YELLOW"</td>
-			<td><b>19.00</b></td>
+			<td><b>19:00</b></td>
 			<td>Singolo : 499K,99</td>
 			<td>FITD</td>
 			<td>chebanca.pec@legalmail.it</td>
 		</tr>
 		<tr id="03365">
-			<td><b>Cherry Bank S.p.A.  03365</b>  "CONTO DEPOSITO"</td>
+			<td><b>CHERRY BANK S.P.A.  03365</b>  "CONTO DEPOSITO"</td>
 			<td><b></b></td>
 			<td></td>
 			<td>FITD</td>
@@ -748,7 +766,7 @@
 		</tr>
 		<tr id="08673">
 			<td><b>CHIANTI BANCA CREDITO COOPERATIVO S.C.  08673</b> </td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td></td>
 			<td>direzione@abi08673.legalmail.it</td>
@@ -769,14 +787,14 @@
 		</tr>
 		<tr id="05336">
 			<td><b>CREDIT AGRICOLE FRIULADRIA S.P.A.  05336</b>  "CREDIT AGRICOLE"</td>
-			<td><b>18.00</b></td>
+			<td><b>18:00</b></td>
 			<td>Giornaliero : 50K</td>
 			<td></td>
 			<td>bancafriuladria.pec@actalispec.it</td>
 		</tr>
 		<tr id="06230">
 			<td><b>CREDIT AGRICOLE ITALIA S.P.A.  06230</b>  "CONTO ADESSO, CARIPARMA, CREDIT AGRICOLE"</td>
-			<td><b>18.00</b></td>
+			<td><b>18:00</b></td>
 			<td>Giornaliero : 50K</td>
 			<td>FITD</td>
 			<td>segreteriagenerale@pec.credit-agricole.it</td>
@@ -790,7 +808,7 @@
 		</tr>
 		<tr id="03032">
 			<td><b>CREDITO EMILIANO SPA  03032</b>  "CREDEM"</td>
-			<td><b>20.00</b></td>
+			<td><b>20:00</b></td>
 			<td>Giornaliero : 25K</td>
 			<td>FITD</td>
 			<td>credem@pec.gruppocredem.it; rec.credem@pec.gruppocredem.it</td>
@@ -804,7 +822,7 @@
 		</tr>
 		<tr id="03104">
 			<td><b>DEUTSCHE BANK SPA  03104</b>  "dbContocarta"</td>
-			<td><b>17.00</b></td>
+			<td><b>17:00</b></td>
 			<td>Singolo : 25K, Giornaliero : 50K</td>
 			<td>FITD</td>
 			<td>dbspa3@actaliscertymail.it</td>
@@ -825,14 +843,14 @@
 		</tr>
 		<tr id="03399">
 			<td><b>EXTRABANCA S.P.A.  03399</b>  "EXTRACLICK"</td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>extrabanca@legalmail.it</td>
 		</tr>
 		<tr id="03445">
 			<td><b>FCA BANK S. P. A.  03445</b>  "Conto Deposito Tempo"</td>
-			<td><b>17.30</b></td>
+			<td><b>17:30</b></td>
 			<td>Nessun Limite</td>
 			<td>FITD</td>
 			<td>fca.bank@pec.fcagroup.com; fcabank.reclami@pec.fcagroup.com</td>
@@ -846,7 +864,7 @@
 		</tr>
 		<tr id="03015">
 			<td><b>FINECOBANK S.P.A.  03015</b>  "FINECO"</td>
-			<td><b>15.00</b></td>
+			<td><b>15:00</b></td>
 			<td>Giornaliero : 250K</td>
 			<td>FITD</td>
 			<td>finecobankspa.pec@actaliscertymail.it</td>
@@ -867,21 +885,21 @@
 		</tr>
 		<tr id="03263">
 			<td><b>IBL BANCA ISTITUTO BANCARIO DEL LAVORO S.P.A.  03263</b>  "IBL BANCA"</td>
-			<td><b>17.00</b></td>
+			<td><b>17:00</b></td>
 			<td>Giornaliero : 20K</td>
 			<td>FITD</td>
 			<td>comunicazioni_iblbanca@postecert.it</td>
 		</tr>
 		<tr id="05029">
-			<td><b>Igea Digital Bank SPA  05029</b>  "ID Conto; ID Deposito"</td>
-			<td><b>16.00</b></td>
+			<td><b>IGEA DIGITAL BANK SPA  05029</b>  "ID Conto; ID Deposito"</td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>reclami.igeadigitalbank@legalmail.it</td>
 		</tr>
 		<tr id="03395">
 			<td><b>ILLIMITY BANK S.P.A.  03395</b>  "ContoPlus; ContoSmart"</td>
-			<td><b>17:30</b></td>
+			<td><b>15:00</b></td>
 			<td>SINGOLO : 260K</td>
 			<td>FITD</td>
 			<td>illimity@pec.illimity.com</td>
@@ -902,21 +920,21 @@
 		</tr>
 		<tr id="03069">
 			<td><b>INTESA SANPAOLO SPA  03069</b> </td>
-			<td><b>17.30</b></td>
+			<td><b>17:30</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>info@pec.intesasanpaolo.com</td>
 		</tr>
 		<tr id="03083">
 			<td><b>IW BANK S.P.A.  03083</b>  "IWBANK"</td>
-			<td><b>17.30</b></td>
+			<td><b>17:30</b></td>
 			<td>Giornaliero : 50K; Mensile : 250K</td>
 			<td></td>
 			<td>iwbank@pecgruppoubi.it</td>
 		</tr>
 		<tr id="10640">
 			<td><b>MEDIOCREDITO DEL FRIULI - VENEZIA GIULIA  10640</b>  "CONTO FORTE"</td>
-			<td><b>14.00</b></td>
+			<td><b>14:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>mcfvg@legalmail.it</td>
@@ -951,21 +969,21 @@
 		</tr>
 		<tr id="05652">
 			<td><b>SANFELICE 1893 BANCA POPOLARE  S.C.  05652</b> </td>
-			<td><b>16.00</b></td>
+			<td><b>16:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>direzione@pec.sanfelice1893.it</td>
 		</tr>
 		<tr id="03191">
 			<td><b>SANTANDER CONSUMER BANK SPA  03191</b>  "IOPOSSO, IOSCELGO"</td>
-			<td><b>16.30</b></td>
+			<td><b>16:30</b></td>
 			<td>Singolo : 500K</td>
 			<td>FITD</td>
 			<td>scbdepositi@actaliscertymail.it; reclami.santander@actaliscertymail.it</td>
 		</tr>
 		<tr id="03353">
-			<td><b>Smart Bank SpA   03353</b> </td>
-			<td><b>15.35</b></td>
+			<td><b>SMART BANCK SPA  03353</b> </td>
+			<td><b>15:35</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>comunicazioni.bancadelsud@postacert.cedacri.it; ufficio.reclami@pec.bancadelsud.com</td>
@@ -979,7 +997,7 @@
 		</tr>
 		<tr id="02008">
 			<td><b>UNICREDIT SPA  02008</b>  "myGENIUS"</td>
-			<td><b>20.00</b></td>
+			<td><b>20:00</b></td>
 			<td></td>
 			<td>FITD</td>
 			<td>comunicazioni@pec.unicredit.eu; reclami@pec.unicredit.eu</td>

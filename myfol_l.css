@@ -1,5 +1,5 @@
 /* --- 2022 --- */
-/* --- .css personalizzato per © https://blanksailing.github.io/myfol --- */
+/* --- .css LIGHT personalizzato per © https://blanksailing.github.io/myfol --- */
 
 html {
 	font-family: "helvetica neue", helvetica, arial, sans-serif;
@@ -41,6 +41,15 @@ ul li:last-child {
 
 h3 {
 	color : blue;
+}
+
+
+button.changeCSS {
+	margin-top: 5px;
+	padding: 5px;
+	color: #fff;
+	background-color: #000;
+	float: right;
 }
 
 table {
