@@ -43,13 +43,13 @@ h3 {
 	color : blue;
 }
 
-
 button.changeCSS {
+	background-color: #121212;
 	margin-top: 5px;
 	padding: 5px;
 	color: #fff;
-	background-color: #000;
 	float: right;
+	transition: 0.5s;
 }
 
 table {
