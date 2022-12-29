@@ -58,6 +58,11 @@ table {
 	border-collapse: collapse;
 }
 
+thead {
+	top: 0px;
+	position: sticky;
+}
+
 th {
 	background-color: #000;
 }
