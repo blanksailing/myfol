@@ -1,8 +1,9 @@
 /* --- 2022 --- */
-/* --- .css LIGHT personalizzato per © https://blanksailing.github.io/myfol --- */
+/* --- .css "NORMAL" personalizzato per © https://blanksailing.github.io/myfol --- */
 
 html {
 	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	color: #000;
 }
 
 body {
@@ -74,11 +75,13 @@ th.update {
 	border: 1px dotted red;
 }
 
-tr:hover {
-	background-color: lightgreen;}
-	
 tr:nth-child(even) {
-	background-color: #ffffcc;}
+	background-color: #ffffcc;
+}
+
+tr:hover {
+	background-color: lightgreen;
+}
 
 th, td {
 	font-variant-numeric: slashed-zero;

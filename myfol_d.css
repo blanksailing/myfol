@@ -1,43 +1,21 @@
 /* --- 2022 --- */
 /* --- .css DARK personalizzato per © https://blanksailing.github.io/myfol --- */
 
+
+@import url('myfol.css');
+
+
 html {
-	font-family: "helvetica neue", helvetica, arial, sans-serif;
 	color: #ededed;
 }
 
 body {
-	max-width: 90%;
-	margin: auto;
 	background: #121212;
-}
-
-a:link {
-	text-decoration: none;
-}
-
-a:visited {
-	text-decoration: none;
 }
 
 a:hover {
 	padding : 6px;
 	background-color: #9d9ccb;
-}
-
-ul {
-	list-style-type: none;
-	padding: 0;
-	border: 1px solid #ddd;
-}
-
-ul li {
-	padding: 8px 16px;
-	border-bottom: 1px solid #ddd;
-}
-
-ul li:last-child {
-	border-bottom: none
 }
 
 h3 {
@@ -53,16 +31,6 @@ button.changeCSS {
 	transition: 0.5s;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-thead {
-	top: 0px;
-	position: sticky;
-}
-
 th {
 	background-color: #000;
 }
@@ -74,16 +42,11 @@ th.update {
 	text-align : center;
 	border: 1px dotted #800000;
 }
-
-tr:hover {
-	background-color: #465945;}
 	
 tr:nth-child(even) {
-	background-color: #222;}
+	background-color: #222;
+}
 
-th, td {
-	font-variant-numeric: slashed-zero;
-	font-family: "Source Sans Pro";
-	padding: 6px;
-	border: 1px dotted grey;
+tr:hover {
+	background-color: #465945;
 }
