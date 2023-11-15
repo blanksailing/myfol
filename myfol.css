@@ -2,7 +2,7 @@
 /* --- .css "NORMAL" personalizzato per © https://blanksailing.github.io/myfol --- */
 
 html {
-	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 	color: #000;
 }
 
@@ -85,7 +85,7 @@ tr:hover {
 
 th, td {
 	font-variant-numeric: slashed-zero;
-	font-family: "Source Sans Pro";
+	font-family: "Consolas";
 	padding: 6px;
 	border: 1px dotted grey;
 }
