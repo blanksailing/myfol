@@ -1,5 +1,6 @@
-/* --- 2022 --- */
-/* --- .css "NORMAL" personalizzato per © https://blanksailing.github.io/myfol --- */
+/* --- 2022 - up. 06-01-2024 --- */
+/* --- 06-01-2024 add class input.search_mf--- */
+/* --- .css "NORMAL" personalized for © https://blanksailing.github.io/myfol --- */
 
 html {
 	font-family: helvetica, arial, sans-serif;
@@ -69,7 +70,7 @@ th {
 
 th.update {
 	background-color : #ffffcc;
-	font: 12px sans-serif;
+	font: 14px sans-serif;
 	color : red;
 	text-align : center;
 	border: 1px dotted red;
@@ -88,4 +89,13 @@ th, td {
 	font-family: "Consolas";
 	padding: 6px;
 	border: 1px dotted grey;
+}
+
+input.search_mf {
+	font: 18px sans-serif;
+	color : blue;
+	text-align : center;
+	border: 1px dotted red;
+	height:35px;
+	width:220px;
 }
